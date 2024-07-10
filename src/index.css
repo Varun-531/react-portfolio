@@ -4,6 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 0;
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  background: darkgrey;
+  border-radius: 25px;
+  /* border: 1px solid black; */
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
